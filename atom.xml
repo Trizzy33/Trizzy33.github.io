@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://trizzy33.github.io/index.html/atom.xml" rel="self"/>
+  
+  <link href="https://trizzy33.github.io/index.html/"/>
+  <updated>2020-04-13T13:25:32.136Z</updated>
+  <id>https://trizzy33.github.io/index.html/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://trizzy33.github.io/index.html/2020/04/13/Note/"/>
+    <id>https://trizzy33.github.io/index.html/2020/04/13/Note/</id>
+    <published>2020-04-13T07:25:48.797Z</published>
+    <updated>2020-04-13T13:25:32.136Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul><li>连续，fix sized</li><li>存储的都是相同type的数据<br>内存部分是连续的，lowest address是第一个数据，highest address则是最后一个数据.每次在插入和删除的时候都需要整段整段的改变。</li><li><h2 id="Complexity"><a href="#Complexity" class="headerlink" title="Complexity"></a>Complexity</h2><table><thead><tr><th>Access</th><th>Search</th><th>Insertion</th><th>Deletion</th></tr></thead><tbody><tr><td>Θ(1)</td><td>Θ(n)</td><td>Θ(n)</td><td>Θ(n)</td></tr></tbody></table></li></ul><blockquote><p>declare <code>type arrayName [ arraySize ];</code></p></blockquote><blockquote><p>example <code>char a1[5];</code></p></blockquote><h2 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h2><h2 id="Unordered-Map"><a href="#Unordered-Map" class="headerlink" title="Unordered Map"></a>Unordered Map</h2><p>和Map不同，实现结构是hash map，普通的map则是红黑树</p><h4 id="function"><a href="#function" class="headerlink" title="function"></a>function</h4><blockquote><p>init<br>   <code>unordered_map&lt;int, int&gt; mp;</code></p></blockquote><blockquote><p>count <code>map.count(key)</code> 返回0或者1，因为key是unique的</p></blockquote><h2 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;连续，fix sized&lt;/li&gt;
+&lt;li&gt;存储的都是相同type的数据&lt;br&gt;内存部分是连续的，lowest address是</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
