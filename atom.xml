@@ -6,7 +6,7 @@
   <link href="https://trizzy33.github.io/atom.xml" rel="self"/>
   
   <link href="https://trizzy33.github.io/"/>
-  <updated>2021-01-07T10:32:12.152Z</updated>
+  <updated>2021-01-07T10:58:06.442Z</updated>
   <id>https://trizzy33.github.io/</id>
   
   <author>
@@ -17,24 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>post</title>
-    <link href="https://trizzy33.github.io/2021/01/07/post/"/>
-    <id>https://trizzy33.github.io/2021/01/07/post/</id>
+    <title>笔记</title>
+    <link href="https://trizzy33.github.io/2021/01/07/note/"/>
+    <id>https://trizzy33.github.io/2021/01/07/note/</id>
     <published>2021-01-07T10:32:12.000Z</published>
-    <updated>2021-01-07T10:32:12.152Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://trizzy33.github.io/2020/04/13/Note/"/>
-    <id>https://trizzy33.github.io/2020/04/13/Note/</id>
-    <published>2020-04-13T07:25:48.797Z</published>
-    <updated>2020-04-13T13:25:32.136Z</updated>
+    <updated>2021-01-07T10:58:06.442Z</updated>
     
     <content type="html"><![CDATA[<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul><li>连续，fix sized</li><li>存储的都是相同type的数据<br>内存部分是连续的，lowest address是第一个数据，highest address则是最后一个数据.每次在插入和删除的时候都需要整段整段的改变。</li><li><h2 id="Complexity"><a href="#Complexity" class="headerlink" title="Complexity"></a>Complexity</h2><table><thead><tr><th>Access</th><th>Search</th><th>Insertion</th><th>Deletion</th></tr></thead><tbody><tr><td>Θ(1)</td><td>Θ(n)</td><td>Θ(n)</td><td>Θ(n)</td></tr></tbody></table></li></ul><blockquote><p>declare <code>type arrayName [ arraySize ];</code></p></blockquote><blockquote><p>example <code>char a1[5];</code></p></blockquote><h2 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h2><h2 id="Unordered-Map"><a href="#Unordered-Map" class="headerlink" title="Unordered Map"></a>Unordered Map</h2><p>和Map不同，实现结构是hash map，普通的map则是红黑树</p><h4 id="function"><a href="#function" class="headerlink" title="function"></a>function</h4><blockquote><p>init<br>   <code>unordered_map&lt;int, int&gt; mp;</code></p></blockquote><blockquote><p>count <code>map.count(key)</code> 返回0或者1，因为key是unique的</p></blockquote><h2 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h2>]]></content>
     
@@ -48,6 +35,8 @@
     
     
     
+    
+    <category term="数据结构" scheme="https://trizzy33.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
