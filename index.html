@@ -71,42 +71,57 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-Note" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/01/07/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2021-01-07T07:45:05.237Z" itemprop="datePublished">2021-01-07</time>
+    <a href="/2020/04/13/Note/" class="article-date">
+  <time class="dt-published" datetime="2020-04-13T07:25:48.797Z" itemprop="datePublished">2020-04-13</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/07/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+        <h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul>
+<li>连续，fix sized</li>
+<li>存储的都是相同type的数据<br>内存部分是连续的，lowest address是第一个数据，highest address则是最后一个数据.每次在插入和删除的时候都需要整段整段的改变。</li>
+<li><h2 id="Complexity"><a href="#Complexity" class="headerlink" title="Complexity"></a>Complexity</h2><table>
+<thead>
+<tr>
+<th>Access</th>
+<th>Search</th>
+<th>Insertion</th>
+<th>Deletion</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Θ(1)</td>
+<td>Θ(n)</td>
+<td>Θ(n)</td>
+<td>Θ(n)</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<blockquote>
+<p>declare <code>type arrayName [ arraySize ];</code></p>
+</blockquote>
+<blockquote>
+<p>example <code>char a1[5];</code></p>
+</blockquote>
+<h2 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h2><h2 id="Unordered-Map"><a href="#Unordered-Map" class="headerlink" title="Unordered Map"></a>Unordered Map</h2><p>和Map不同，实现结构是hash map，普通的map则是红黑树</p>
+<h4 id="function"><a href="#function" class="headerlink" title="function"></a>function</h4><blockquote>
+<p>init<br>   <code>unordered_map&lt;int, int&gt; mp;</code></p>
+</blockquote>
+<blockquote>
+<p>count <code>map.count(key)</code> 返回0或者1，因为key是unique的</p>
+</blockquote>
+<h2 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h2>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://trizzy33.github.io/2021/01/07/hello-world/" data-id="ckjmo2r5v0000l8u41glx698f" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="https://trizzy33.github.io/2020/04/13/Note/" data-id="ckjmoc8ic0000hwu443br8p47" data-title="" class="article-share-link">Share</a>
       
       
       
@@ -136,7 +151,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li></ul>
     </div>
   </div>
 
@@ -149,7 +164,7 @@
       <ul>
         
           <li>
-            <a href="/2021/01/07/hello-world/">Hello World</a>
+            <a href="/2020/04/13/Note/">(no title)</a>
           </li>
         
       </ul>
