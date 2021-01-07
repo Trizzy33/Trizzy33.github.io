@@ -3,23 +3,36 @@
   <title>Hexo</title>
   
   
-  <link href="https://trizzy33.github.io/index.html/atom.xml" rel="self"/>
+  <link href="https://trizzy33.github.io/atom.xml" rel="self"/>
   
-  <link href="https://trizzy33.github.io/index.html/"/>
-  <updated>2020-04-13T13:25:32.136Z</updated>
-  <id>https://trizzy33.github.io/index.html/</id>
+  <link href="https://trizzy33.github.io/"/>
+  <updated>2021-01-07T10:32:12.152Z</updated>
+  <id>https://trizzy33.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>trizzy33</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>post</title>
+    <link href="https://trizzy33.github.io/2021/01/07/post/"/>
+    <id>https://trizzy33.github.io/2021/01/07/post/</id>
+    <published>2021-01-07T10:32:12.000Z</published>
+    <updated>2021-01-07T10:32:12.152Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title></title>
-    <link href="https://trizzy33.github.io/index.html/2020/04/13/Note/"/>
-    <id>https://trizzy33.github.io/index.html/2020/04/13/Note/</id>
+    <link href="https://trizzy33.github.io/2020/04/13/Note/"/>
+    <id>https://trizzy33.github.io/2020/04/13/Note/</id>
     <published>2020-04-13T07:25:48.797Z</published>
     <updated>2020-04-13T13:25:32.136Z</updated>
     
